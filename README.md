@@ -1,8 +1,8 @@
-# customer-segmentation
-# dataset link : 
+# Customer-Segmentation
+# Dataset Link : 
 https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python 
 # Description: 
-This analysis aims to segment customers based on their Age, Annual Income, and Spending Score to better understand customer behavior and identify targeted marketing strategies for each customers groups. We used K-Means clustering combined with PCA for dimensionality reduction et we also applied heirarchicale .
+ This analysis aims to segment customers based on their Age, Annual Income, and Spending Score to better understand customer behavior and identify targeted marketing strategies for each customers groups. We used K-Means clustering combined with PCA for dimensionality reduction et we also applied heirarchicale .
 # Describe the Methodology Briefly : 
 The data was first cleaned normalized and then i did a short visualization of the data, and PCA was applied to reduce dimensionality while preserving variance. K-Means clustering was then performed to segment the customers. After evaluating different values of k, we chose 6 clusters based on the elbow method.
 # Summarize Each Segment : 
@@ -92,7 +92,7 @@ Cluster 5 :
 
 # Summary for Business Decision-Making:
 🟢 Target Segments (Cluster 1 & 2):
-Young adults aged 20–35 with very high spending scores. These are the premium audience. Focus your marketing, new products, offers, and loyalty programs on them. Target them with premium services or products, luxury brands, or high-end financial services or personalization matters. Promote entry-level offers, student discounts, or installment payment plans. Use social media targeting.
+Young adults aged 20–35 with very high spending scores. These are the premium audience. Focus your marketing, new products, offers, and loyalty reward programs on them. Target them with premium services or products, luxury brands, or high-end financial services or personalization matters. Promote entry-level offers, student discounts, or installment payment plans. Use social media targeting.target customer in cluster 2 with discounts or installment plans — they spend despite low income.
 
 🟠 Medium Opportunity Segment (Cluster 0): Customers aged 40–70 with average spending. They may be loyal and responsive to special offers, discounts, or personalized service. Offer retirement savings plans, travel packages, and health-related products. Emphasize stability and trust.
 
@@ -100,4 +100,14 @@ Young adults aged 20–35 with very high spending scores. These are the premium 
 
 🟣 Mixed Segment (Cluster 3): A diverse group with variable spending habits. May be worth A/B testing or segmenting further by gender, profession, or location to find smaller actionable subgroups.
 
+# 📬 Communication : 
+Use age-appropriate channels:
+ -Social media for young groups.
+ -Email/phone for older groups.
+
+# 🧪 A/B Testing:
+Test promotions tailored to each group, then analyze ROI. 
+   - Cluster 1 & 2: Offer exclusive new products to retain high-spending young customers.
+   - Cluster 0 & 3: Launch awareness campaigns and email follow-ups to encourage engagement.
+   - Cluster 5 & 4: These are low-income, low-spending customers. Limit marketing budget here.
 
