@@ -5,56 +5,48 @@ https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-p
  This analysis aims to segment customers based on their Age, Annual Income, and Spending Score to better understand customer behavior and identify targeted marketing strategies for each customers groups. We used K-Means clustering combined with PCA for dimensionality reduction et we also applied heirarchicale .
 # Describe the Methodology Briefly : 
 The data was first cleaned normalized and then i did a short visualization of the data, and PCA was applied to reduce dimensionality while preserving variance. K-Means clustering was then performed to segment the customers. After evaluating different values of k, we chose 6 clusters based on the elbow method.
-
 ![image alt](pca.png)
 # Summarize Each Segment : 
 📌 cluster 0 :
-- Age : ~40 to 70+ / mean = 56.3
-- Spending Score : Medium (mostly around 40–60) / average= 49 
-- Income : medium ( ~40k to 80k) /  mean= 49k moderate 
-- Number of customer : 45 / 22%
+- Age : ~40 to 70+ , mean = 56.3
+- Spending Score : Medium (mostly around 40–60) , average= 49 
+- Income : medium ( ~40k to 80k) , mean= 49k moderate 
+- Number of customer : 22% (45 customers ) 
 - Gender : 58% female & 42% male 
 - Interpretation : These are older, moderate-income, average-spending customers.
 - Label : Mature Budget-Conscious
 
  📌 cluster 1:
-- Age : ~25 to 35 / mean = 32.7
-- Spending Score : High (70–100) average = 83
-- Income : ~70k to 140k hight 82.1%
-- Number of customer : 19%  39 costomers
+- Age : ~25 to 35 , mean = 32.7
+- Spending Score : High (70–100) , average = 83
+- Income : ~70k to 140k hight , mean = 82.1k
+- Number of customer : 19% (39 costomers)
 - Gender : 58% female & 42% male 
 - Interpretation : These are young, wealthy, and high-spending individuals.
 - Label : "Luxury Lovers" or "Affluent Spenders"
 
  📌 cluster 2 :
-- Age : ~20 to 30 mean=25.6
-- Spending Score : High (70–100) 76.2
-- Income : ~15k to 45k ( low to med) 33k
-- Number of customer : 12% 25 customers
-- Gender : 58% female & 42% male  56%F
-44M
+- Age : ~20 to 30 , mean=25.6
+- Spending Score : High (70–100) , mean = 76.2
+- Income : ~15k to 45k ( low to med) , mean =33k
+- Number of customer : 12% (25 customers)
+- Gender : 56% female & 44% male .
 - Interpretation : Young people with low income but high spending behavior — possibly students or early-career impulsive spenders.
 - Label : "Aspirational Spenders" or "Young Spontaneous Buyers"
 
    📌 cluster 3 :
 - Age : 18–40 ~20 to 40 26.1
-- Spending Score :Low to medium (5–60) 44.4 moderate 
-- Income : ~40k to 80k
-44..4k
+- Spending Score :Low to medium (5–60) , mean = 44.4 moderate 
+- Income : ~40k to 80k , mean = 44.4k
 - Number of customer : 20% (40 customers)
 - Gender : 60% female & 40% male 
 - Interpretation : Young males, average income, average spending — balanced customers
 - Label :Young Professionals" or "Stable Spenders"
 
    📌 cluster 4 :
-- Age : ~30 to 55+
-44
+- Age : ~30 to 55+ , mean = 44
 - Spending Score :Low (mostly 0–40)
-- Income : ~70k to 130k
-
-low = 17.9
-17.9%
-
+- Income : ~70k to 130k low , mean = 17.9
 - Number of customer : 15% ( 30 customers)
 - Gender : 47% female & 53% male 
 - Interpretation : Older customers with very low income and low spending — likely price-sensitive.
@@ -62,13 +54,17 @@ low = 17.9
 
    📌 cluster 5:
 - Age : 30-65 , mean = 45.5  
-- Spending Score : Very low (0–30) low=19.3
+- Spending Score : Very low (0–30) , mean =19.3
 - Income : medium (~15k to 40k) , mean= 19.3k moderate 
 - Number of customer : 10% (21 customer ) 
 - Gender : 62% female & 38% male 
 - Interpretation : Similar to Cluster 4 but slightly older and more male-dominated.
 - Label :Older Low Spenders" or "Budget-Conscious Men"
-- 
+
+  ![image alt](cluster distrubution.png)
+  ![image alt](table.png)
+  
+
 # General Insights & Observations :
 Cluster 0 :
 📌 Interpretation: Older customers with average spending & moderate income. Possibly loyal but not impulsive buyers.
