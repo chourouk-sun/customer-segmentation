@@ -5,12 +5,9 @@ https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-p
  This analysis aims to segment customers based on their Age, Annual Income, and Spending Score to better understand customer behavior and identify targeted marketing strategies for each customers groups. We used K-Means clustering combined with PCA for dimensionality reduction et we also applied heirarchicale .
 # Describe the Methodology Briefly : 
 The data was first cleaned normalized and then i did a short visualization of the data, and PCA was applied to reduce dimensionality while preserving variance. K-Means clustering was then performed to segment the customers. After evaluating different values of k, we chose 6 clusters based on the elbow method.
+
+![image alt](pca.png)
 # Summarize Each Segment : 
-!(relative/path/to/table.png)
-
-
-
-
 📌 cluster 0 :
 - Age : ~40 to 70+ / mean = 56.3
 - Spending Score : Medium (mostly around 40–60) / average= 49 
@@ -106,6 +103,7 @@ Young adults aged 20–35 with very high spending scores. These are the premium 
 
 # 📬 Communication : 
 Use age-appropriate channels:
+
  -Social media for young groups.
  -Email/phone for older groups.
 
