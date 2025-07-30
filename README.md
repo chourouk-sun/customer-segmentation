@@ -6,9 +6,9 @@ https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-p
 # Describe the Methodology Briefly : 
 The data was first cleaned normalized and then i did a short visualization of the data, and PCA was applied to reduce dimensionality while preserving variance. K-Means clustering was then performed to segment the customers. After evaluating different values of k, we chose 6 clusters based on the elbow method.
 # Summarize Each Segment : 
-![Alt text](relative/path/to/table.png)
+!(relative/path/to/table.png)
 
-![Alt text](images/table.png)
+
 
 
 📌 cluster 0 :
